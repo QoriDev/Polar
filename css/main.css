@@ -1,0 +1,952 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/HindMadurai-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-SemiBold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Bold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/FredokaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container{
+   width: 1125px;
+   margin-left: auto;
+   margin-right: auto;
+}   
+
+.div-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.header-logo-img{
+    margin-top: 10px;
+}
+
+.header{
+    background-color: rgba(242, 206, 218, 0.3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.header-link{
+    display: block;
+    margin-top: 10px;
+}
+
+.header-nav{
+    margin-left: 266px;
+    
+}
+
+.header-list{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: o;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: o;
+    
+}
+
+.header-nav-item{
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-size: 14px;
+    padding: 0;
+    /* margin-top: 41px; */
+    margin-left: auto;
+    text-align: left;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+    opacity: 60%;
+    color: #150101;
+    cursor: pointer;
+}
+
+.header-nav-link-active:hover{
+    color: #D23166 ;
+}
+
+.home{
+    color: #D23166;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.header-buy-link{
+    width: 165px;
+    height: 49px;
+    font-family: "Hind Madurai" , "Arial", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-right: auto;
+    padding: 14px 50px 13px 50px;
+    background-color: #D23166;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 1);
+    position: relative;
+    margin-top: 25px;
+    margin-left: 172px;
+}
+.header-nav-item:last-child{
+    margin-right: 0;
+}
+
+.intro{
+    background-color: rgba(242, 206, 218, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url("../img/delicious_ice_cream.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 330px);
+    position: relative;
+    padding: 196px 0 213px 0;
+}
+
+.intro-list{
+    list-style: none;
+    margin: 0;
+}
+
+.intro-description-sweet{
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-size: 14px;
+    margin: 0;
+    /* padding-top: 196px; */
+    color: #0F0101;
+    font-style: normal;
+    width: 172px;
+}
+
+
+.intro-description-ice-cream{
+    font-family: "Fredoka One" , "Arial" , sans-serif;
+    font-size: 58px;
+    margin: 0;
+    margin-top: 6px;
+    width: 665px;
+}
+
+.intro-description{
+    font-family: "Hind Madura", "Arial", sans-serif;
+    font-size: 18px;
+    color: #0F0101;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    opacity: 60%;
+    text-align: left;
+    width: 523px;
+}
+
+.ice-span{
+    color: #D23166;
+    margin: 0;
+}
+
+.intro-span-link{
+    text-decoration: none;
+    color: #FAFAFA;
+    font-family: "Hind Madura", "Arial", sans-serif ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.intro-span{
+    background-color: #D23166;
+    padding: 13px 50px 19px 50px;
+    margin-top: 50px;
+    width: 165px;
+    margin-left: auto;
+    border-radius: 5px;
+    
+}
+
+.intro-buy-link{
+    width: 165px;
+    height: 49px;
+    font-family: "Hind Madurai" , "Arial", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-right: auto;
+    padding: 14px 50px 13px 50px;
+    background-color: #D23166;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 1);
+    position: relative;
+    margin-top: 50px;
+}
+.section{
+    background-color: #FFFFFF; 
+    padding: 100px 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 100px 0 100px; 
+    /* justify-content: space-between; */
+}
+
+.section-img{
+    margin-left: 90px;
+    padding: 0;
+
+}
+
+.section-item{
+    width: 250px;
+    height: 200px;
+    /* border: 1px solid rgba(0, 0, 0, 0.03); */
+    border-radius: 7px;
+    background-color: white;
+    margin-right: 49px;
+    
+}
+
+.section-item:hover{
+    -webkit-box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+            box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.section-item:last-child{
+    margin-right: 0;
+}
+
+.section-title{
+    margin: 0;
+    color: #000000;
+    font-family: "Hind Manrui" , "Arial" , sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bek{
+    opacity: 0;
+}
+
+.section-description{
+    margin: 0;
+    margin-top: 9px;
+    text-align: center;
+    font-family: "Hind Manrui" , "Arial" , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 198px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+}
+
+.oatmea{
+    background-color: #F8EDF0  ;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* display: flex;
+    justify-content: space-between; */
+    /* position: relative; */
+}
+
+.oatmea-container{
+    padding-top: 141px;
+    padding-bottom: 161px;
+    background-image: url("../img/ice_cream.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.oatmea-description-sugar{
+    font-family: "Hind Manrui" , "Arial" , sans-serif;
+    width: 349px;
+    color: #150101;
+    font-style: normal;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.oatmea-description-burger{
+    font-family: "Roboto" , "Arial" , sans-serif;
+    width: 442px;
+    color: #150101;
+    opacity: 60%;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.oatmea-span{
+   width: 165px;
+    background-color: #D64374;
+    padding: 15px 42px;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: auto;
+    position: absolute;
+}
+
+.section-oatmea-link{
+   width: 82px;
+    text-decoration: none;
+    margin-top: 63px;
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.product {
+    background-color: #fff;
+}
+
+.product-list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.product-item {
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.product-item:last-child {
+    margin-right: 0;
+}
+
+.product-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+}
+
+.product-title {
+    text-align: center;
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 0;
+    padding-top: 137px;
+    margin-bottom: 37px;
+}
+
+.product-nav-link {
+    text-decoration: none;
+    color: rgb(90, 85, 85);
+}
+
+.product-nav-link-active:hover{
+    color: rgba(214, 67, 116, 1);
+    border-bottom: 3px solid rgba(214, 67, 116, 1);
+
+}
+
+
+.cream-ice {
+    border-bottom: 3px solid rgba(214, 67, 116, 1)
+}
+
+.ice-creams{
+    background-color: #fff;
+}
+
+.ice-creams-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+
+.ice-creams-item{
+    text-align: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+}
+
+.ice-creams-item:nth-child(2n) .side-by-side{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+.ice-creams-item:nth-child(2n) .conteint{
+  margin-right: 85px;
+  text-align: right;
+}
+.ice-creams-item:nth-child(2n-1) .conteint{
+  margin-left: 85px;
+ 
+}
+
+/* .side-by-side:nth-child(2n){
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+} */
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* .conteint{
+    margin-left: 85px;
+    
+} */
+
+.side-by-side{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.ice-creams-title{
+    margin:o;
+    padding:0;
+    font-family: "Hind Madurai", "Arial", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 110px;
+    
+}
+
+.ice-creams-paragraph{
+    margin: o;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    width: 454px;
+    margin-top: 11px;
+    opacity: 70%;
+}
+
+.ice-creams-paragraph-money{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-family: "Hind Madurai", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 28px;
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 31px;
+}
+
+.ice-creams-del{
+    font-size: 20px;
+    font-family: "Hind Madurai", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    opacity: 70%;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+
+.ice-creams-buy-link{
+    width: 165px;
+    height: 49px;
+    font-family: "Hind Madurai" , "Arial", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-right: auto;
+    padding: 14px 50px 13px 50px;
+    background-color: #D23166;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(250, 250, 250, 1);
+    position: relative;
+    margin-top: 16px;
+}
+
+.food{
+    background-color: rgb(248, 237, 240);
+    margin-top: 4px;
+}
+
+.food-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.food-title{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    width: 621px;
+    margin-top: 129px;
+}
+
+.food-pic{
+    margin-top: 59px;
+    border-radius: 33px;
+    
+}
+
+.division{
+    height: 678px;
+}
+
+.food-description{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    width: 607px;
+    opacity: 70%;
+    margin-top: 20px;
+}
+
+.food-list{
+    list-style: none;
+}
+
+.food-span-wrist{
+   padding: 8px 10px; 
+   width: 30px;
+   height: 30px;
+   border-radius: 3px;
+   background-color: #fff;
+   margin-bottom: 15px;
+}
+
+.food-span-basket{
+    padding: 8px 10px; 
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 15px;
+ }
+
+ .food-span-cart{
+    padding: 8px 10px; 
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 15px;
+ }
+
+.food-item{
+    margin-bottom: 19px;
+    cursor: pointer;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.food-item:last-child{
+    margin-bottom: 0;
+}
+
+.food-link{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.food-link-img-store{
+    margin-top: 36px;
+}
+
+.food-link-img-play{
+    margin-bottom: 6px;
+}
+
+.forms-paragraph {
+    font-family: "Roboto", "Arial" sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms {
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    /* height: 565px; */
+}
+
+.forms-container {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms-question {
+    width: 637px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 71px;
+}
+
+.in-input {
+    width: 303px;
+    padding: 29px 29px;
+    margin-right: 22px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(214, 67, 116, 1);
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+.div-input {
+    width: 303px;
+    padding: 29px 29px;
+    margin: 0;
+    margin-bottom: 50px;
+    border: 1px solid rgba(214, 67, 116, 1);
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+.question-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input-div {
+    width: 503px;
+    padding: 29px 29px;
+    margin: 0;
+    border: 1px solid rgba(214, 67, 116, 1);
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+.div-button {
+    width: 303px;
+    padding: 28px 28px;
+    margin: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(214, 67, 116, 1);
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: rgba(10, 8, 8, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.div-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.in-div-footer{
+   text-align: left;  
+}
+
+.footer-logo-img{
+    margin-top: 70px;
+}
+
+.footer-description{
+    width: 207px;
+    opacity: 0.7;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin: o;
+    padding: 0;
+    margin-top: 9px;
+    color:rgba(255, 255, 255, 1)
+}
+
+.footer-list{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.footer-item{
+    margin-right: 10px;
+}
+
+.footer-item:last-child{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.footer-paragraph{
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ul-list{
+    list-style: none;
+    
+}
+.in-ul-list-div{
+    text-align: left;
+    margin-right: 132px;
+    color:rgba(255, 255, 255, 1)
+}
+
+.in-ul-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-top: 120px;
+    margin-bottom: 104px;
+    cursor: pointer;
+}
+
+.div-ul-list{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+    cursor: pointer;
+}
+ 
+.in-div-paragraph{
+    width: 78px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 136px;
+    
+}
+
+.in-div-input{
+    padding: 20px 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.6;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(10, 8, 8, 1) ;
+}
+
+.ul-list-item{
+    margin-top: 10px;
+}
+
+.in-ul-link{
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    
+}
+
+.in-div-button{
+    padding: 16px 18px;
+    background-color: rgba(210, 49, 102, 1);
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    cursor: pointer;
+    
+}
+
+.in-li-imgs{
+    margin-right: 24px;
+}
+.in-li-imgs:last-child{
+    margin-right: 0;
+}
+
